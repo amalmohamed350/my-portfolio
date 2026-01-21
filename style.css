@@ -1,0 +1,32 @@
+div{
+    border: 5px rgb(29, 27, 59) solid;
+    border-radius: 30px;
+    background-color: rgb(176, 137, 144);
+    color: rgb(95, 35, 35);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 7, 25);
+   text-shadow: 5px 2px 3px rgb(199, 206, 209);
+}
+
+
+body{
+
+    background-image: url(https://cdn.pixabay.com/photo/2022/07/05/07/42/gradient-7302505_640.png);
+    background-size: cover;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 28px;
+    background-color: rgb(152, 120, 124);
+    color: white;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: rgb(89, 146, 182);
+    transform: scale(1.1);
+}
+.btn:active{
+    transform: scale(0.95);
+}
